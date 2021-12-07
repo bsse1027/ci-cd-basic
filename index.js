@@ -13,7 +13,7 @@ app.get('/multiply/:a/:b', (req, res) => {
     var a = parseInt(req.params.a);
     var b = parseInt(req.params.b);
     var answer = a*b;
-    res.send("The result is : "+answer);
+    res.send("The answer is : "+answer);
 });
 
 app.get('/add/:a/:b', (req, res) => {
@@ -22,7 +22,7 @@ app.get('/add/:a/:b', (req, res) => {
     var a = parseInt(req.params.a);
     var b = parseInt(req.params.b);
     var result = a+b;
-    res.send("The result is : "+result);
+    res.send("The answer is : "+result);
 });
 
 
